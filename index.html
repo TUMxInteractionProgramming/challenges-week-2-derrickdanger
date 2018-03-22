@@ -49,11 +49,11 @@
 
 
         /*styles for channel area*/
-        h2 {
-            /* #2 #colorful #channelandchat */
-            background-color: white;
-        }
-
+        ul {
+        list-style-type: none;
+        background-color: white;
+          }
+       
         /*styles for chat area*/
         p {
             /* #2 #colorful #channelandchat */
@@ -67,7 +67,9 @@
 
         h3 {
             /* #2 #font #metadata is now medium */
+            /* Make these containers use 80% of the browser's #width*/
             font-size: medium;
+            width: 80%;
         }
 
         em {
@@ -76,27 +78,39 @@
             font-style: normal;
         }
 
+    /* #2 Improve the #channels view*/
+        #element1 {
+        background-color: white
+        }
+
+    
     </style>
 
 </head>
 
 <body>
 
+
 <!-- channel area -->
 <!-- #1 #channels #app-bar -->
-<h1>chatter|app</h1>
+<h1><img src="https://ip.lfe.mw.tum.de/sections/moocus.png" alt="Here should duck image be" style="height: 56px">chatter|app</h1>
 
 <!-- #1 #channels #topics -->
-<h2>#Yummy</h2>
-<h2>#SevenContinents</h2>
-<h2>#KillerApp</h2>
-<h2>#FirstPersonOnMars</h2>
-<h2>#Octoberfest</h2>
+<ul>
+<li>#Yummy<img src="https://ip.lfe.mw.tum.de/sections/star-o.png" alt="Here star";></li>
+<li>#SevenContinents<img src="https://ip.lfe.mw.tum.de/sections/star.png" alt="Here star";></li>
+<li>#KillerApp<img src="https://ip.lfe.mw.tum.de/sections/star-o.png" alt="Here star";></li>
+<li>#FirstPersonOnMars<img src="https://ip.lfe.mw.tum.de/sections/star.png" alt="Here star";></li>
+<li>#Octoberfest<img src="https://ip.lfe.mw.tum.de/sections/star-o.png" alt="Here star";></li>
+</ul>
 
 <!-- #1 #channels #buttons -->
-<button>new</button>
-<button>trending</button>
-<button>favorites</button>
+<div id="element1">
+<button><img src="https://ip.lfe.mw.tum.de/sections/lightbulb-o.png" alt="Here light";>new</button>
+<button><img src="https://ip.lfe.mw.tum.de/sections/fire.png" alt="Fire";>trending</button>
+<button><img src="https://ip.lfe.mw.tum.de/sections/star.png" alt="Here star";>favorites</button>
+</div>
+
 
 
 <!-- chat area -->
@@ -112,7 +126,7 @@
 <!-- #1 #chat #metadata contains location, weekday, day, and time -->
 <h3>
     <!-- #2 #font #locations need an extra element, we'll use strong for w3w locations -->
-    <strong>cheeses.yard.applies</strong>
+    <strong><a href="https://www.w3schools.com/html/" target="_blank">cheeses.yard.applies</a></strong>
     Wed, June 20th, 13:37
     <!-- #1 #chat #ttl lives inside the metadata -->
     <em>15 min. left</em>
